@@ -48,7 +48,7 @@ module demuxtxt;
 
 	initial begin
 		// Initialize Inputs
-		d = 0;
+		d = 1;
 		s1 = 0;
 		s0 = 0;
 
@@ -56,21 +56,21 @@ module demuxtxt;
 		#100;
         
 //01
-		d = 0;
+		d = 1;
 		s1 = 0;
 		s0 = 1;
 
 		// Wait 100 ns for global reset to finish
 		#100;
 //10		
-		d = 0;
+		d = 1;
 		s1 = 1;
 		s0 = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
 		
-		d = 0;
+		d = 1;
 		s1 = 1;
 		s0 = 1;
 
