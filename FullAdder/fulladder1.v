@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module test431;
+module Fulladdertb;
 
 	// Inputs
 	reg a;
@@ -51,54 +51,46 @@ module test431;
 		// Wait 100 ns for global reset to finish
 		#100;
         
-		// Add stimulus here
 		a = 0;
 		b = 0;
 		c = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
 		a = 0;
 		b = 1;
 		c = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
 		a = 0;
 		b = 1;
 		c = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
 		a = 1;
 		b = 0;
 		c = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
 		a = 1;
 		b = 0;
 		c = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
 		a = 1;
 		b = 1;
 		c = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
 		a = 1;
 		b = 1;
 		c = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 
 	end
