@@ -59,141 +59,99 @@ module btg2;
 		#100;
         
 		// Add stimulus here
-//0001
 		b0 = 1;
 		b1 = 0;
 		b2 = 0;
 		b3 = 0;
-//0010
-		// Wait 100 ns for global reset to finish
 		#100;
+		
 		b0 = 0;
 		b1 = 1;
 		b2 = 0;
 		b3 = 0;
-
-//0011
-		// Wait 100 ns for global reset to finish
 		#100;
 	
 		b0 = 1;
 		b1 = 1;
 		b2 = 0;
 		b3 = 0;
+		#100;
 
-		// Wait 100 ns for global reset to finish
+		b0 = 0;
+		b1 = 0;
+		b2 = 1;
+		b3 = 0;
+
 		#100;
 	
-//0100	
-		b0 = 0;
-		b1 = 0;
-		b2 = 1;
-		b3 = 0;
-
-		// Wait 100 ns for global reset to finish
-		#100;
-
-//0101		
 		b0 = 1;
 		b1 = 0;
 		b2 = 1;
 		b3 = 0;
-
-		// Wait 100 ns for global reset to finish
 		#100;
-//0110		
+		
 		b0 = 0;
 		b1 = 1;
 		b2 = 1;
 		b3 = 0;
-
-		// Wait 100 ns for global reset to finish
 		#100;
-//0111
 
 		b0 = 1;
 		b1 = 1;
 		b2 = 1;
 		b3 = 0;
-
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//1000
 
 		b0 = 0;
 		b1 = 0;
 		b2 = 0;
 		b3 = 1;
-
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//1001
-
 		b0 = 1;
 		b1 = 0;
 		b2 = 0;
 		b3 = 1;
-
-		// Wait 100 ns for global reset to finish
 		#100;
-		
-//1010
 
 		b0 = 0;
 		b1 = 1;
 		b2 = 0;
 		b3 = 1;
-
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//1011
 		b0 = 1;
 		b1 = 1;
 		b2 = 0;
 		b3 = 1;
-
-		// Wait 100 ns for global reset to finish
 		#100;
-		
-//1100
 
 		b0 = 0;
 		b1 = 0;
 		b2 = 1;
 		b3 = 1;
-
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//1101
+
 
 		b0 = 1;
 		b1 = 0;
 		b2 = 1;
 		b3 = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
-	
-//1110
 
 		b0 = 0;
 		b1 = 1;
 		b2 = 1;
 		b3 = 1;
-
-		// Wait 100 ns for global reset to finish
 		#100;
 		
 		b0 = 1;
 		b1 = 1;
 		b2 = 1;
 		b3 = 1;
-
-		// Wait 100 ns for global reset to finish
 		#100;
 	end
       
