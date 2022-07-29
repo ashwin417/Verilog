@@ -60,149 +60,120 @@ module gtbt;
         
 		// Add stimulus here
 		
-//0001
 		a = 1;
 		b = 0;
 		c = 0;
 		d = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//0010
+
 		a = 0;
 		b = 1;
 		c = 0;
 		d = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//0011
+
 		a = 1;
 		b = 1;
 		c = 0;
 		d = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//0100
 
 		a = 0;
 		b = 0;
 		c = 1;
 		d = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//0101
 
 		a = 1;
 		b = 0;
 		c = 1;
 		d = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//0110
 
 		a = 0;
 		b = 1;
 		c = 1;
 		d = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//0111
 
 		a = 1;
 		b = 1;
 		c = 1;
 		d = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
-		
-//1000
 
 		a = 0;
 		b = 0;
 		c = 0;
 		d = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//1001
+
 
 		a = 1;
 		b = 0;
 		c = 0;
 		d = 1;
-
-		// Wait 100 ns for global reset to finish
 		#100;
 
-//1010
 
 		a = 0;
 		b = 1;
 		c = 0;
 		d = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 
-//1011		
 		a = 1;
 		b = 1;
 		c = 0;
 		d = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//1100
 
 		a = 0;
 		b = 0;
 		c = 1;
 		d = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//1101
 		a = 1;
 		b = 0;
 		c = 1;
 		d = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-//1110
 
 		a = 0;
 		b = 1;
 		c = 1;
 		d = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;		
 		
-//1111
 
 		a = 1;
 		b = 1;
 		c = 1;
 		d = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 	end
       
